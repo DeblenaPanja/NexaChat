@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> NexaChat - Professional AI Assistant</title>
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/layout.css">
+    <link rel="stylesheet" href="./styles/components.css">
+</head>
+<body>
+    <canvas id="three-canvas"></canvas>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <button id="new-chat-btn" class="btn primary-btn">+ New Chat</button>
+            <div id="history-list" class="history-list"></div>
+            <button id="theme-toggle-btn" class="btn secondary-btn">Toggle Theme</button>
+        </aside>
+
+        <main class="chat-area">
+            <header class="chat-header">
+                <h3>  NexaChat Engine </h3>
+            </header>
+            <div id="chat-messages" class="chat-messages"></div>
+            <footer class="chat-input-container">
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Type a professional prompt..." autocomplete="off" required>
+                    <button type="submit" class="btn send-btn">Send</button>
+                </form>
+            </footer>
+        </main>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>

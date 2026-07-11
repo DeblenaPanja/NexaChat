@@ -1,0 +1,19 @@
+:root {
+    --bg-app: #121214;
+    --bg-sidebar: #1a1a1e;
+    --bg-bubble-user: #2d3748;
+    --bg-bubble-ai: #1e293b;
+    --text-main: #f3f4f6;
+    --accent: #3b82f6;
+    --border-color: #2d2d34;
+}
+
+[data-theme="light"] {
+    --bg-app: #f8fafc;
+    --bg-sidebar: #f1f5f9;
+    --bg-bubble-user: #e2e8f0;
+    --bg-bubble-ai: #ffffff;
+    --text-main: #0f172a;
+    --accent: #2563eb;
+    --border-color: #cbd5e1;
+}
