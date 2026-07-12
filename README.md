@@ -68,7 +68,7 @@ npm start
 Once the server is running, you will see a message in the terminal: NexaChat Engine active at http://localhost:8000.
 Open your web browser and navigate to http://localhost:8000 to interact with the chatbot.
 
-📁 Project Structure
+📁 Project Structur
 
 NexaChat/
 ├── server.js              # Node.js Express backend proxy
@@ -90,6 +90,8 @@ NexaChat/
     │   └── sceneSetup.js  # Three.js 3D background initialization
     └── store/
         └── localHistory.js # localStorage management for history
+
+        
 
 
 🔒 Security Note
